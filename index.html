@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container text-center mt-5">
+        <h1>Welcome to the Turn-Based Strategy Game</h1>
+        <p class="mt-3">Get ready to test your strategic skills in a classic game of chess with a twist!</p>
+        
+        <!-- Photo and Information -->
+        <div class="mt-4">
+            <img src="/Wasimmm.jpeg" alt="Game Developer Wasim" class="img-fluid rounded" style="width: 200px; height: 200px; object-fit: cover;">
+            <h2 class="mt-3">Wasim</h2>
+            <p>Game Developer</p>
+            <p>Vellore Institute of Technology, Computer Science of Engineering</p>
+        </div>
+        
+        <button id="start-game" class="btn btn-primary mt-4" aria-label="Start Game">Let's Play</button>
+    </div>
+    <script>
+        document.getElementById('start-game').addEventListener('click', () => {
+            window.location.href = 'game.html';
+        });
+    </script>
+</body>
+</html>
